@@ -8,6 +8,7 @@ h1 {
 .header {
   /**margin: 0 auto;**/
   background-color:#26d0c9;
+ width: 600px;
   height:100px;
   color: white;
 }
