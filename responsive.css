@@ -12,28 +12,13 @@ h1 {
   height:100px;
   color: white;
 }
-.proge {
+.header-left {
   float:left;
   font-size: 10px;
   padding:20px 10px;
 }
-.pro {
-  float:left;
-  padding:10px 20px;
-}
-.re {
-  float:left;
-  padding:33px 20px;
- font-size: 10px;
-}
-.oto {
-  float:left;
-  padding:33px 20px;
- font-size:10px;
-}
 
 .img {
-  /**margin: 0 auto;**/
   width: 30%;
   height: 0;
  padding-top: calc(300 / 1000 * 100%); /
