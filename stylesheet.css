@@ -18,6 +18,7 @@ li {
 
 
 .header {
+  margin: 0 auto;
   background-color:#26d0c9;
   height:100px;
   color: white;
