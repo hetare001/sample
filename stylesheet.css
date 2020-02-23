@@ -48,7 +48,7 @@ li {
 .title1 {
   margin: 0 auto;
   width: 50%;
-  background-image: url(20190101_122033.jpg);
+  background-image: url("20190101_122033.jpg");
 }
 /**.img {
   margin: 0 auto;
