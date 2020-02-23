@@ -16,7 +16,9 @@ li {
   list-style: none;
 }**/
 
-
+h1 {
+  text-align: center;
+}
 .header {
   /**margin: 0 auto;**/
   background-color:#26d0c9;
@@ -45,7 +47,5 @@ li {
   margin: 0 auto;
   width: 300px;
 }
-h1 {
-  text-align: center;
-}**/
+**/
 
