@@ -19,8 +19,8 @@ li {
 
 .header {
   background-color:#26d0c9;
-  height:100px;
-  color: black;
+  height:300px;
+  color: white;
 }
 .proge {
   float:left;
@@ -43,7 +43,4 @@ li {
   float:left;
   padding:33px 20px;
 }
-.title {
-  height: 200px;
-}
-  
+
