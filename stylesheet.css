@@ -1,6 +1,4 @@
-h1 {
-  text-align: center;
-}
+
 
 /**html, body,
 ul, ol, li,
@@ -32,6 +30,10 @@ li {
 .pro {
   float:left;
   padding:33px 20px;
+  
+ h1 {
+  text-align: center;
+}
 }
 .re {
   float:left;
