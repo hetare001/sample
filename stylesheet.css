@@ -34,6 +34,7 @@ li {
   
  h1 {
   text-align: center;
+   background-img: url(20190101_122033.jpg);
 }
 }
 .re {
@@ -47,7 +48,7 @@ li {
 .title1 {
   margin: 0 auto;
   width: 50%;
-  background-img: url(20190101_122033.jpg);
+  
 }
 .img {
   margin: 0 auto;
