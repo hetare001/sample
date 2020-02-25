@@ -22,7 +22,7 @@ h1 {
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
-  max-width: 52vm;
+  max-width: 50vm;
   height: auto;
 }
 
@@ -32,11 +32,11 @@ a {
  
 li {
   text-align: center;
-  font-size: 5px;
+  font-size: 7px;
   list-style: none;
 }
 
-.footer-list {
+.footer {
   background-color: #ceccf3;
   height: 270px;
 }
