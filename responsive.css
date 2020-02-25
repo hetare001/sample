@@ -17,11 +17,11 @@ h1 {
 .disp-block {
   display: block; /* これでブロック要素の扱いになります */
 }
-.blockcenter1{
+.blockcenter{
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
-  width: 100%;
+  width: 100vm;
 }
 
 li {
