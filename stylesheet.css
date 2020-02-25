@@ -5,11 +5,6 @@
   color: white;
   text-align: center;
 }
-.left {
-  float: left;
-  font-size: 36px;
-  padding:20px 40px 20px 40px;
-}
 
 div.sample img {
     width: 1168px;  /* 横幅を200pxに */
