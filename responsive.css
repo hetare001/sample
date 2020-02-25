@@ -23,6 +23,7 @@ h1 {
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
   max-width: 100vm;
+  height: auto;
 }
 
 a {
