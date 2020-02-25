@@ -16,7 +16,7 @@ h1 {
  }
 
 .disp-block {
-  display: block; /* これでブロック要素の扱いになります */
+  display: block;
 }
 .blockcenter1{
   margin-left: auto;
