@@ -18,7 +18,7 @@ h1 {
 .blockcenter{
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
-  border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
+  border: 1px dashed #999; 
 }
 
 li {
