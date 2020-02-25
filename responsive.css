@@ -7,7 +7,7 @@
   color: white;
   font-size: 24px;
   font-family: serif;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 h1 {
@@ -22,12 +22,12 @@ h1 {
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
-  max-width: 50%;
+  max-width: 50vm;
   height: auto;
 }
 
 a {
- font-size: 10px;
+ font-size: 12px;
 }
  
 li {
