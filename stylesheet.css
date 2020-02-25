@@ -16,6 +16,10 @@ h1 {
   text-align: center;
  }
 
+.img {
+  text-align: center;
+}
+
 .footer {
   background-color: #ceccf3;
   height: 270px;
