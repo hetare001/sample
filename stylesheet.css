@@ -2,11 +2,11 @@
   background-color:#26d0c9;
   height:100px;
   color: white;
+  text-align: center;
  }
 
 .left {
-  text-align: center;
-  font-size: 70px;
+  font-size: 36px;
   font-family: serif;
 }
 
