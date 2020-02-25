@@ -21,8 +21,8 @@ h1 {
 .blockcenter1{
   margin-left: auto;
   margin-right: auto;
- border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
-  max-width: 25vm;
+  border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
+  max-width: 50vm;
   height: auto;
 }
 
@@ -38,6 +38,6 @@ li {
 
 .footer-list {
   background-color: #ceccf3;
-  height: 270px;
+  height: 100px;
 }
 }
