@@ -24,9 +24,13 @@ h1 {
   width: 100vm;
 }
 
+a {
+ font-size: 10px;
+}
+ 
 li {
   text-align: center;
-  font-size: 7px;
+  font-size: 10px;
   list-style: none;
 }
 
