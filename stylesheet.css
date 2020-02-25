@@ -21,7 +21,7 @@ h1 {
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
 }
 
-p li {
+li {
   text-align: center;
 }
 
