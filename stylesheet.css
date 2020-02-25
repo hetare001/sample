@@ -12,9 +12,13 @@ h1 {
   text-align: center;
  }
 
-p.img {
-  display: block;
-  margin; auto;
+.disp-block {
+  display: block; /* これでブロック要素の扱いになります */
+}
+.blockcenter{
+  margin-left: auto;  /* 【ポイント】*/
+  margin-right: auto; /* 【ポイント】*/
+  border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
 }
 
 .footer {
