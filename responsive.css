@@ -22,7 +22,7 @@ h1 {
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
-  max-width: 100vm;
+  max-width: 100%;
   height: auto;
 }
 
