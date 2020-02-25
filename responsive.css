@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
  
 .header {
   text-align: center;
@@ -17,7 +17,7 @@ h1 {
 .disp-block {
   display: block; /* これでブロック要素の扱いになります */
 }
-.blockcenter{
+.blockcenter1{
   margin-left: auto;  /* 【ポイント】*/
   margin-right: auto; /* 【ポイント】*/
   border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
