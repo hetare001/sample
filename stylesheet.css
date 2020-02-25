@@ -1,10 +1,11 @@
 .header {
+  text-align: center;
   background-color:#26d0c9;
   height:100px;
   color: white;
   font-size: 36px;
   font-family: serif;
-  text-align: center;
+  
  }
 
 .left {
