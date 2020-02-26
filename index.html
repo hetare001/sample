@@ -7,6 +7,41 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
+  
+  <style type="text/css">
+#photo {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#photo img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+</style>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    var setImg = '#photo';
+    var fadeSpeed = 1600;
+    var switchDelay = 5000;
+
+    $(setImg).children('img').css({opacity:'0'});
+    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+    setInterval(function(){
+        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+    },switchDelay);
+});
+</script>
+  
 </head>
 <body>
   <div class="header">
@@ -16,6 +51,14 @@
   <p class="title1">
     <h1>今までどこのお店に行っても叶えられなかった髪質を改善！！<br>奇跡の美髪エステ導入☆自分史上最高の美髪を☆</h1>
     <img class="disp-block blockcenter" src="logo.jpg" alt="サンプル画像">
+  
+  　<div id="photo">
+      <img src="logo.jpg" width="500" height="300" alt="">
+      <img src="outside.jpg" width="500" height="300" alt="">
+      <img src="inside1.jpg" width="500" height="300" alt="">
+      <img src="inside2.jpg" width="500" height="300" alt="">
+    </div>
+  
     <ul>
       <li>３席だけの優雅に過ごせるご褒美サロンEtincellce-エタンセル。</li>
       <li>体験したことのない美髪・素髪に導き『自分史上最高の美髪』をお手伝い。</li>
