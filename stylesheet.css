@@ -35,6 +35,11 @@ li {
   color:#b3aeb5;
 }
 
+.lesson{
+  float:left;
+  width:25%;
+}
+
 .footer {
   background-color: #ceccf3;
   height: 270px;
