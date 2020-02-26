@@ -32,13 +32,12 @@ li {
   display:inline-block;
   margin:20px;
   font-size:20px;
-  color:#b3aeb5;
 }
 
 .lesson{
-  float:left;
-  width:25%;
-}
+  float: left;
+  width: 33%;
+  color: black;
 
 .footer {
   background-color: #ceccf3;
