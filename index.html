@@ -42,6 +42,25 @@ $(function(){
 });
 </script>
   
+  <?php
+if(strlen($_FILES["pic"]["name"])>0)
+{
+   print "name=";
+   print $_FILES["pic"]["name"];
+   print "<BR>";
+   print "size=";
+   print $_FILES["pic"]["size"];
+   print "<BR>";
+   print "tmp_=";
+   print $_FILES["pic"]["tmp_name"];
+   print "<BR>";
+}
+else
+{
+   print "ファイルをアプロードしてください";
+}
+?>
+  
 </head>
 <body>
   <div class="header">
@@ -123,24 +142,7 @@ $(function(){
 <input type="submit" name="botan" value="send">
 </form>
     
-    <?php
-if(strlen($_FILES["pic"]["name"])>0)
-{
-   print "name=";
-   print $_FILES["pic"]["name"];
-   print "<BR>";
-   print "size=";
-   print $_FILES["pic"]["size"];
-   print "<BR>";
-   print "tmp_=";
-   print $_FILES["pic"]["tmp_name"];
-   print "<BR>";
-}
-else
-{
-   print "ファイルをアプロードしてください";
-}
-?>
+    
    
 </div>
   
